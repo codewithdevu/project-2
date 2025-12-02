@@ -47,40 +47,35 @@
 
             <div class="content-right">
                 <div class="product">
-                    <img src="image/air-1.png"
-                        alt="">
+                    <img src="image/air-1.png" alt="">
                     <h4>Nike Air Max 1</h4>
                     <p class="category-color">Men's Shoes Size 7</p>
                     <p class="color">Color: Red and White </p>
                     <p class="price">₹14,995</p>
                 </div>
                 <div class="product">
-                    <img src="image/air-2.png"
-                        alt="">
+                    <img src="image/air-2.png" alt="">
                     <h4>Nike Air Peg 2K5</h4>
                     <p class="category-color">Men's Shoes Size 11</p>
                     <p class="color">Color: White and black</p>
                     <p class="price">₹18,995</p>
                 </div>
                 <div class="product">
-                    <img src="image/air-3.png"
-                        alt="">
+                    <img src="image/air-3.png" alt="">
                     <h4>Nike Lunar Roam</h4>
                     <p class="category-color">Men's Shoes Size 8 </p>
                     <p class="color">Color: brown and white </p>
                     <p class="price">₹14,695</p>
                 </div>
                 <div class="product">
-                    <img src="image/air-4.png"
-                        alt="">
+                    <img src="image/air-4.png" alt="">
                     <h4>Nike Nocta Glide</h4>
                     <p class="category-color">Men's Shoes Size 7</p>
                     <p class="color">Color: White</p>
                     <p class="price">₹50,695</p>
                 </div>
                 <div class="product">
-                    <img src="image/air-5.png"
-                        alt="">
+                    <img src="image/air-5.png" alt="">
                     <h4>Nike Terminator High</h4>
                     <p class="category-color">Men's Shoes Size 7</p>
                     <p class="color">Color: Sky blue and black</p>
@@ -89,6 +84,16 @@
             </div>
         </div>
     </div>
+
+    <script>
+        const slider = document.querySelector(".content-right");
+
+        slider.addEventListener("wheel", function (e) {
+            e.preventDefault();
+            slider.scrollLeft += e.deltaY;
+        });
+    </script>
+
 
 </body>
 
