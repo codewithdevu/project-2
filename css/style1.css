@@ -1,0 +1,400 @@
+
+@media (max-width: 1290px) {
+
+    .nav {
+        padding: 0px 35px;
+    }
+
+    .nav-part-1 ul {
+        gap: 65px;
+    }
+
+
+    .nav-part-1 ul li {
+        padding: 7px 8px;
+    }
+
+    .nav-part-1 ul li:hover {
+        padding: 7px 8px;
+    }
+
+    .nav-part-2 i {
+        margin-right: 20px;
+    }
+
+    .content-left {
+        padding: 70px 80px;
+    }
+}
+
+@media (max-width: 1185px) {
+
+    .nav-part-1 ul {
+        gap: 60px;
+    }
+
+    .nav-part-1 ul li {
+        padding: 7px 4px;
+    }
+
+    .nav-part-1 ul li:hover {
+        padding: 7px 4px;
+    }
+
+    .nav-part-2 i {
+        margin-right: 25px;
+    }
+
+
+    .content-left {
+        padding: 60px 60px;
+    }
+}
+
+
+@media (max-width: 1080px) {
+
+    .nav-part-1 ul {
+        gap: 50px;
+    }
+
+    .nav-part-1 ul li {
+        padding: 7px 0px;
+    }
+
+    .nav-part-1 ul li:hover {
+        padding: 7px 0px;
+    }
+
+    .nav-part-2 i {
+        margin-right: 20px
+    }
+
+
+    .content-left {
+        width: 45%;
+        padding: 60px 50px;
+    }
+
+    .content-right {
+        width: 55%;
+        padding: 70px 40px;
+    }
+}
+
+
+@media (max-width: 925px) {
+
+    .nav {
+        padding: 0px 25px;
+    }
+
+    .nav img {
+        margin-right: 30px;
+    }
+
+    .nav-part-1 ul {
+        gap: 30px;
+    }
+
+    .nav-part-1 ul li {
+        padding: 7px 0px;
+    }
+
+    .nav-part-1 ul li:hover {
+        padding: 7px 0px;
+    }
+
+    .nav-part-2 i {
+        margin-right: 15px;
+    }
+
+    .content-left {
+        width: 50%;
+        padding: 60px 40px;
+    }
+
+    .content-right {
+        width: 50%;
+        padding: 70px 30px;
+    }
+}
+
+@media (max-width: 880px) {
+
+    /* CONTENT STACK (left upar, right niche) */
+    .content {
+        flex-direction: column;
+    }
+
+    .content-left {
+        height: auto;
+        width: 100%;
+        padding: 50px 25px;
+        text-align: center;
+    }
+
+    .content-left h5 {
+        font-size: 25px;
+    }
+
+    .content-left h1 {
+        font-size: 70px;
+    }
+
+    .content-left p {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    /* Button Center */
+    .content-left button {
+        margin: 0 auto;
+        display: block;
+        font-size: 25px;
+        padding: 15px 40px;
+    }
+
+    .content-right {
+        height: auto;
+        width: 100%;
+        padding: 35px 25px;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
+    .product {
+        width: 235px;
+        height: 330px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .nav-part-1 ul {
+        gap: 20px;
+    }
+
+    .nav-part-2 i {
+        margin-right: 8px;
+    }
+
+    /* CONTENT STACK (left upar, right niche) */
+    .content {
+        flex-direction: column;
+    }
+
+    .content-left {
+        height: auto;
+        width: 100%;
+        padding: 65px 20px;
+        text-align: center;
+    }
+
+    .content-left h5 {
+        font-size: 20px;
+    }
+
+    .content-left h1 {
+        font-size: 60px;
+    }
+
+    .content-left p {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    /* Button Center */
+    .content-left button {
+        margin: 0 auto;
+        display: block;
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+
+    .content-right {
+        height: auto;
+        width: 100%;
+        padding: 40px 25px;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
+    .product {
+        width: 235px;
+        height: 330px;
+        margin-right: 20px;
+    }
+
+}
+
+
+@media (max-width: 680px) {
+
+    /* NAVBAR FIX */
+    .nav {
+        padding: 0px 10px;
+    }
+
+    .nav img {
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .nav-part-1 ul {
+        gap: 12px;
+    }
+
+    .nav-part-1 ul li {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+
+    .nav-part-2{
+        margin-top: 15px;
+    }
+
+    .nav-part-2 i {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8px;
+        font-size: 18px;
+    }
+
+    /* CONTENT STACK (left upar, right niche) */
+    .content {
+        flex-direction: column;
+    }
+
+    .content-left {
+        height: auto;
+        width: 100%;
+        padding: 40px 25px;
+        text-align: center;
+    }
+
+    .content-left h5 {
+        font-size: 15px;
+    }
+
+    .content-left h1 {
+        font-size: 39px;
+    }
+
+    .content-left p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    /* Button Center */
+    .content-left button {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .content-right {
+        height: auto;
+        width: 100%;
+        padding: 40px 25px;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
+    .product {
+        width: 220px;
+        height: 330px;
+        margin-right: 20px;
+    }
+}
+
+
+    @media (max-width: 600px) {
+
+    .nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+        gap: 15px;    /* space between rows */
+    }
+
+    /* Logo center me */
+    .nav img {
+        height: 45px;
+        margin: 20px auto;
+        display: block;
+    }
+
+    /* Part 1 (menu) center me */
+    .nav-part-1 {
+        flex-direction: column;
+    }
+
+    .nav-part-1 ul {
+        gap: 5px;
+    }
+
+    .nav-part-1 ul li {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    /* Part 2 icons center me niche */
+    .nav-part-2 {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .nav-part-2 i {
+        margin: 0;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 405px) {
+
+    .nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+        gap: 15px;    /* space between rows */
+    }
+
+    /* Logo center me */
+    .nav img {
+        height: 45px;
+        margin: 20px auto;
+        display: block;
+    }
+
+    /* Part 1 (menu) center me */
+    .nav-part-1 {
+        flex-direction: column;
+    }
+
+    .nav-part-1 ul {
+        gap: 0px;
+    }
+
+    .nav-part-1 ul li {
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+
+    /* Part 2 icons center me niche */
+    .nav-part-2 {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .nav-part-2 i {
+        margin: 0;
+        font-size: 20px;
+    }
+
+}
