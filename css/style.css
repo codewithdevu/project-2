@@ -1,22 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 html,
-body{
+body {
     font-family: "Inter", sans-serif;
     font-weight: 400;
 }
 
-.main{
+.main {
     height: 100vh;
     width: 100%;
     background-color: #d0d4D5;
 }
 
-.nav{
+.nav {
     height: 70px;
     width: 100%;
     display: flex;
@@ -25,19 +25,19 @@ body{
     padding: 0px 50px;
 }
 
-.nav img{
+.nav img {
     height: 50px;
     width: auto;
     margin-right: 60px;
 }
 
-.nav-part-1{
+.nav-part-1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.nav-part-1 ul{ 
+.nav-part-1 ul {
     display: flex;
     gap: 70px;
     list-style: none;
@@ -45,18 +45,18 @@ body{
     align-items: center;
 }
 
-.nav-part-1 ul li{
+.nav-part-1 ul li {
     /* margin-right: 70px; */
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
     cursor: pointer;
-    padding: 10px 15px;       
-    border-radius: 40px;        
-    transition: 0.3s ease;   
+    padding: 10px 15px;
+    border-radius: 40px;
+    transition: 0.3s ease;
 }
 
-.nav-part-1 ul li:hover{
+.nav-part-1 ul li:hover {
     padding: 10px 15px;
     background-color: whitesmoke;
     color: #000;
@@ -64,48 +64,48 @@ body{
     border: none;
 }
 
-.nav-part-2 i{
+.nav-part-2 i {
     margin-right: 30px;
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
 }
 
-.content{
+.content {
     height: calc(100% - 70px);
     width: 100%;
     position: relative;
     display: flex;
 }
 
-.content-left{
+.content-left {
     height: 100%;
     width: 40%;
     padding: 80px 100px;
 }
 
-.content-left h5{
+.content-left h5 {
     font-size: 20px;
     color: #555;
     text-transform: capitalize;
     margin-bottom: 10px;
 }
 
-.content-left h1{
+.content-left h1 {
     font-size: 55px;
     text-transform: capitalize;
     color: #000;
     margin-bottom: 25px;
 }
 
-.content-left p{
+.content-left p {
     font-size: 20px;
     width: 80%;
     color: #000;
     margin-bottom: 30px;
 }
 
-.content-left button{
+.content-left button {
     font-size: 15px;
     background-color: #000;
     color: #fff;
@@ -117,11 +117,11 @@ body{
     transition: transform 0.3 ease;
 }
 
-.content-left button:hover{
+.content-left button:hover {
     transform: scale(1.1);
 }
 
-.content-right{
+.content-right {
     height: 100%;
     width: 60%;
     padding: 70px 100px;
@@ -129,46 +129,46 @@ body{
     overflow-x: auto;
 }
 
-.content-right::-webkit-scrollbar{
+.content-right::-webkit-scrollbar {
     display: none;
 }
 
-.product:hover{
+.product:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 10px 5px rgba(17, 0, 17, 0.3);
 }
 
-.product{
+.product {
     background-color: #1011;
     height: 370px;
     width: 250px;
     position: relative;
     box-shadow: 0px 5px 10px rgba(17, 0, 17, 0.3);
     display: inline-block;
-    padding: 15px;           
-    border-radius: 12px;  
+    padding: 15px;
+    border-radius: 12px;
     margin-right: 30px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
 
-.product img{
+.product img {
     height: 60%;
     width: 100%;
     object-fit: contain;
     position: static;
     border-radius: 20px;
-    margin: 0 auto;        
+    margin: 0 auto;
 }
 
-.product h4{
+.product h4 {
     font-size: 18px;
     text-transform: capitalize;
     position: absolute;
     bottom: 28%;
 }
 
-.category-color{
+.category-color {
     font-size: 15px;
     position: absolute;
     bottom: 20%;
@@ -176,7 +176,7 @@ body{
     font-weight: 500;
 }
 
-.color{
+.color {
     font-size: 15px;
     position: absolute;
     bottom: 15%;
@@ -185,10 +185,409 @@ body{
 
 }
 
-.price{
+.price {
     font-size: 20px;
     position: absolute;
     text-transform: capitalize;
     bottom: 5%;
     font-weight: 500;
+}
+
+@media (max-width: 1290px) {
+
+    .nav {
+        padding: 0px 35px;
+    }
+
+    .nav-part-1 ul {
+        gap: 65px;
+    }
+
+
+    .nav-part-1 ul li {
+        padding: 7px 8px;
+    }
+
+    .nav-part-1 ul li:hover {
+        padding: 7px 8px;
+    }
+
+    .nav-part-2 i {
+        margin-right: 20px;
+    }
+
+    .content-left {
+        padding: 70px 80px;
+    }
+}
+
+@media (max-width: 1185px) {
+
+    .nav-part-1 ul {
+        gap: 60px;
+    }
+
+    .nav-part-1 ul li {
+        padding: 7px 4px;
+    }
+
+    .nav-part-1 ul li:hover {
+        padding: 7px 4px;
+    }
+
+    .nav-part-2 i {
+        margin-right: 25px;
+    }
+
+
+    .content-left {
+        padding: 60px 60px;
+    }
+}
+
+
+@media (max-width: 1080px) {
+
+    .nav-part-1 ul {
+        gap: 50px;
+    }
+
+    .nav-part-1 ul li {
+        padding: 7px 0px;
+    }
+
+    .nav-part-1 ul li:hover {
+        padding: 7px 0px;
+    }
+
+    .nav-part-2 i {
+        margin-right: 20px
+    }
+
+
+    .content-left {
+        width: 45%;
+        padding: 60px 50px;
+    }
+
+    .content-right {
+        width: 55%;
+        padding: 70px 40px;
+    }
+}
+
+
+@media (max-width: 925px) {
+
+    .nav {
+        padding: 0px 25px;
+    }
+
+    .nav img {
+        margin-right: 30px;
+    }
+
+    .nav-part-1 ul {
+        gap: 30px;
+    }
+
+    .nav-part-1 ul li {
+        padding: 7px 0px;
+    }
+
+    .nav-part-1 ul li:hover {
+        padding: 7px 0px;
+    }
+
+    .nav-part-2 i {
+        margin-right: 15px;
+    }
+
+    .content-left {
+        width: 50%;
+        padding: 60px 40px;
+    }
+
+    .content-right {
+        width: 50%;
+        padding: 70px 30px;
+    }
+}
+
+@media (max-width: 880px) {
+
+    /* CONTENT STACK (left upar, right niche) */
+    .content {
+        flex-direction: column;
+    }
+
+    .content-left {
+        height: auto;
+        width: 100%;
+        padding: 50px 25px;
+        text-align: center;
+    }
+
+    .content-left h5 {
+        font-size: 25px;
+    }
+
+    .content-left h1 {
+        font-size: 70px;
+    }
+
+    .content-left p {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    /* Button Center */
+    .content-left button {
+        margin: 0 auto;
+        display: block;
+        font-size: 25px;
+        padding: 15px 40px;
+    }
+
+    .content-right {
+        height: auto;
+        width: 100%;
+        padding: 35px 25px;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
+    .product {
+        width: 235px;
+        height: 330px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .nav-part-1 ul {
+        gap: 20px;
+    }
+
+    .nav-part-2 i {
+        margin-right: 8px;
+    }
+
+    /* CONTENT STACK (left upar, right niche) */
+    .content {
+        flex-direction: column;
+    }
+
+    .content-left {
+        height: auto;
+        width: 100%;
+        padding: 65px 20px;
+        text-align: center;
+    }
+
+    .content-left h5 {
+        font-size: 20px;
+    }
+
+    .content-left h1 {
+        font-size: 60px;
+    }
+
+    .content-left p {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    /* Button Center */
+    .content-left button {
+        margin: 0 auto;
+        display: block;
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+
+    .content-right {
+        height: auto;
+        width: 100%;
+        padding: 40px 25px;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
+    .product {
+        width: 235px;
+        height: 330px;
+        margin-right: 20px;
+    }
+
+}
+
+
+@media (max-width: 680px) {
+
+    /* NAVBAR FIX */
+    .nav {
+        padding: 0px 10px;
+    }
+
+    .nav img {
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .nav-part-1 ul {
+        gap: 12px;
+    }
+
+    .nav-part-1 ul li {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+
+    .nav-part-2{
+        margin-top: 15px;
+    }
+
+    .nav-part-2 i {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8px;
+        font-size: 18px;
+    }
+
+    /* CONTENT STACK (left upar, right niche) */
+    .content {
+        flex-direction: column;
+    }
+
+    .content-left {
+        height: auto;
+        width: 100%;
+        padding: 40px 25px;
+        text-align: center;
+    }
+
+    .content-left h5 {
+        font-size: 15px;
+    }
+
+    .content-left h1 {
+        font-size: 39px;
+    }
+
+    .content-left p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    /* Button Center */
+    .content-left button {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .content-right {
+        height: auto;
+        width: 100%;
+        padding: 40px 25px;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
+    .product {
+        width: 220px;
+        height: 330px;
+        margin-right: 20px;
+    }
+}
+
+
+    @media (max-width: 600px) {
+
+    .nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+        gap: 15px;    /* space between rows */
+    }
+
+    /* Logo center me */
+    .nav img {
+        height: 45px;
+        margin: 20px auto;
+        display: block;
+    }
+
+    /* Part 1 (menu) center me */
+    .nav-part-1 {
+        flex-direction: column;
+    }
+
+    .nav-part-1 ul {
+        gap: 5px;
+    }
+
+    .nav-part-1 ul li {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    /* Part 2 icons center me niche */
+    .nav-part-2 {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .nav-part-2 i {
+        margin: 0;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 405px) {
+
+    .nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+        gap: 15px;    /* space between rows */
+    }
+
+    /* Logo center me */
+    .nav img {
+        height: 45px;
+        margin: 20px auto;
+        display: block;
+    }
+
+    /* Part 1 (menu) center me */
+    .nav-part-1 {
+        flex-direction: column;
+    }
+
+    .nav-part-1 ul {
+        gap: 0px;
+    }
+
+    .nav-part-1 ul li {
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+
+    /* Part 2 icons center me niche */
+    .nav-part-2 {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .nav-part-2 i {
+        margin: 0;
+        font-size: 20px;
+    }
 }
